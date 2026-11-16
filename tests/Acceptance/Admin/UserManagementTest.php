@@ -5,7 +5,7 @@ use DI\Attribute\Inject;
 use Starbug\Db\Testing\WebDatabaseTestCase;
 use Starbug\Testing\Attribute\Fixture;
 use Starbug\Users\Admin\Tests\Acceptance\Traits\UserManagementCrudTestCases;
-use Starbug\Users\Admin\Tests\Domain\Authentication;
+use Starbug\Users\Tests\Domain\Authentication;
 use Starbug\Users\Admin\Tests\Domain\UserManagement;
 
 /**

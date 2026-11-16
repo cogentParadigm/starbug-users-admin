@@ -23,7 +23,7 @@ use Starbug\Users\Admin\Collection\AdminUsersCollection;
  * only concatenates the filtered group(s), not all of the user's groups.
  * So the unfiltered `groups` values differ from the filtered ones.
  */
-#[Fixture('modules/users/tests/fixtures/db/admin_users_collection.yml')]
+#[Fixture('modules/users-admin/tests/fixtures/db/admin_users_collection.yml')]
 class AdminUsersCollectionTest extends DatabaseTestCase {
   use CollectionAssertions;
 
